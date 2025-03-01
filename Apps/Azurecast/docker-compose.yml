@@ -118,6 +118,9 @@ volumes:
   www_uploads: {}
   backups: {}
 x-casaos:
+  architectures:
+    - amd64
+    - arm64
   author: self
   category: self
   hostname: ""
